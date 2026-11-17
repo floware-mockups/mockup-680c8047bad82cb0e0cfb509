@@ -1,0 +1,167 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Dashboard per confrontare i consumi mensili degli edifici pubblici e registrare nuove rilevazioni. Il riepilogo presenta l’andamento mensile in forma tabellare.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "riepilogo",
+      "title": "Riepilogo",
+      "description": "Panoramica dei consumi rilevati e andamento mensile complessivo.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "18.420 kWh"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "4"
+        },
+        {
+          "label": "Variazione mensile",
+          "value": "−6,2%"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Consumo totale (kWh)",
+        "Edificio più energivoro",
+        "Variazione"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "24.800",
+          "Palazzo Lumo",
+          "+3,1%"
+        ],
+        [
+          "Febbraio",
+          "22.600",
+          "Centro Vela",
+          "−8,9%"
+        ],
+        [
+          "Marzo",
+          "21.300",
+          "Palazzo Lumo",
+          "−5,8%"
+        ],
+        [
+          "Aprile",
+          "19.750",
+          "Aula Nubi",
+          "−7,3%"
+        ],
+        [
+          "Maggio",
+          "18.420",
+          "Centro Vela",
+          "−6,7%"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni",
+      "description": "Consulta e filtra le letture energetiche per edificio, periodo e vettore.",
+      "metrics": [
+        {
+          "label": "Rilevazioni registrate",
+          "value": "8"
+        },
+        {
+          "label": "Vettori energetici",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Vettore",
+        "Consumo (kWh)",
+        "Costo (€)"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Gennaio",
+          "Elettricità",
+          "8.400",
+          "2.184"
+        ],
+        [
+          "Centro Vela",
+          "Gennaio",
+          "Gas",
+          "6.200",
+          "682"
+        ],
+        [
+          "Aula Nubi",
+          "Febbraio",
+          "Elettricità",
+          "5.100",
+          "1.326"
+        ],
+        [
+          "Torre Brina",
+          "Febbraio",
+          "Gas",
+          "4.800",
+          "528"
+        ],
+        [
+          "Palazzo Lumo",
+          "Marzo",
+          "Elettricità",
+          "7.600",
+          "1.976"
+        ],
+        [
+          "Centro Vela",
+          "Marzo",
+          "Gas",
+          "5.700",
+          "627"
+        ],
+        [
+          "Aula Nubi",
+          "Aprile",
+          "Elettricità",
+          "4.650",
+          "1.209"
+        ],
+        [
+          "Torre Brina",
+          "Aprile",
+          "Gas",
+          "4.300",
+          "473"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-rilevazione",
+      "title": "Nuova rilevazione",
+      "description": "Registra una lettura mensile per un edificio monitorato.",
+      "metrics": [],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Vettore",
+        "Consumo (kWh)",
+        "Costo (€)"
+      ],
+      "rows": [],
+      "form": [
+        "Edificio",
+        "Mese",
+        "Vettore",
+        "Consumo (kWh)",
+        "Costo (€)"
+      ]
+    }
+  ]
+}
